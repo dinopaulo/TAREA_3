@@ -1,0 +1,57 @@
+/* damos estilo al cuerpo */
+body{
+    font-family: Arial;
+    background-color: #18a383;
+    box-sizing: border-box;
+}
+/* damos estilo al formulario */
+form{
+    background-color: white;
+    border-radius: 3px;
+    color: #999;
+    font-size: 15px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 300px;
+}
+/* input para ingresar la informacion */
+input{
+    border: 0;
+    outline:none;
+    width: 280;
+
+}
+/* clase para los inputs (cajas de texto) */
+.field{
+    border: solid 1px #ccc;
+    padding: 10px;
+}
+.field:focus{
+    border-color: #18a383;
+}
+/* clases para los botones */
+.btn{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.btn-green{
+    color: white;
+    background-color: #3cc93f;
+}
+.btn-green:hover{
+    background-color: #378839;
+}
+.btn-green:active{
+    background-color: #29962a;
+}
+footer{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-weight: bolder;
+}
+

@@ -1,0 +1,80 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 9</title>
+    <link rel="stylesheet" href="/practicas/static/css/style9.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <form class="compra_mall">
+          <h3>Verificacion de presupuesto para compras en Locales Comerciales</h3>
+          <p>Ingresa los datos requeridos</p>
+          <input
+            type="text"
+            class="campos"
+            placeholder="Ingrese su nombre"
+            autocomplete="off"
+            id="nom"
+          />
+          <input
+            type="text"
+            class="campos"
+            placeholder="Ingrese su apellido"
+            autocomplete="off"
+            id="ape"
+          />
+          <input
+            type="text"
+            class="campos"
+            placeholder="Ingrese su cedula"
+            id="c_i"
+            autocomplete=" off"
+          />
+          <input
+            type="number"
+            class="campos"
+            placeholder="Ingrese precio del primer producto"
+            id="va-1"
+          />
+          <input
+            type="number"
+            class="campos"
+            placeholder="Ingrese precio del segundo producto"
+            id="va-2"
+          />
+          <input
+            type="number"
+            class="campos"
+            placeholder="Ingrese precio del tercer producto"
+            id="va-3"
+          />
+          <p class="boton-resultado">
+            <input
+              type="button"
+              class="btn-v btn-v-color"
+              value="CALCULAR"
+              onclick="calculo();"
+              
+            />
+          </p>
+        </form>
+      </div>
+      <dialog class="modal" id="mainModal">
+        <p class = "estilo-cont" id="resultado-v"></p>
+        <p class="btn-cerrar-dialog">
+          <input
+            type="button"
+            class="btn-c btn-c-color"
+            value="CERRAR"
+            onclick="cerrar();"
+           
+          />
+        </p>
+      </dialog>
+    <script src="../static/js/funciones9.js"></script>
+</body>
+</html>

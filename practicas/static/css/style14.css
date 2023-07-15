@@ -1,0 +1,53 @@
+body{
+    font-family: 'Righteous', cursive;
+    background-color: #C2DEDC;
+    box-sizing: border-box;
+}
+form{
+    border-radius: 15px;
+    background-color: #fff;
+    max-width: 400px;
+    margin: 40 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos del input */
+  .campo{
+    font-family: 'Arsenal', sans-serif;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .campo:focus {
+    border-color: #116A7B;
+    outline: none;
+  }
+  
+  /* Estilos del botón */
+  .btn{
+    font-family: 'Arsenal', sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #5c9bce;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #4488b7;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }

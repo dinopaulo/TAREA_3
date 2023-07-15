@@ -1,0 +1,136 @@
+body {
+    font-family: 'Bree Serif', serif;
+    background-color: #E5BEEC;
+    box-sizing: border-box;
+  }
+  div{
+      position:absolute;
+      width: auto;
+      height:auto;
+      top: calc(50% - 240px);
+      padding: 0 473px;
+  }
+  form{
+      position: absolute;
+      text-align: center;
+      background: #fff;
+      width: 510px;
+      height: 530px;
+      border-radius: 5px;
+      padding: 1px 20px 0 20px;
+      box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.25);
+      box-sizing: border-box;
+  }
+  p {
+      font-family: 'Bree Serif', serif;
+      font-weight: 100;
+      text-transform: uppercase;
+      font-size: 16px;
+      color: #917FB3;
+      margin-bottom: 40px;
+  }
+  p > span {
+      padding-top: 3px;
+      display: block;
+      font-weight: 400;
+      font-size: 9px;
+  }
+  h3 {
+      font-family: 'Bree Serif', serif;
+      font-size: 27px;
+      text-transform: uppercase;
+      color: #2A2F4F;
+      margin-bottom: 30px;
+  }
+  input{
+      outline: none !important;
+  }
+  .campos{
+      border: none;
+      border-bottom: 1px solid #917FB3;
+      width: 85%;
+      font-family: 'Bree Serif', serif;
+      color: #2A2F4F;
+      text-align: center;
+      font-size: 21px;
+      font-weight:100;
+      margin-bottom:10px;
+  }
+  ::-webkit-input-placeholder {
+      color: #7178af;
+      font-family: 'Bree Serif', serif;
+      font-weight:100;
+   }
+   :-moz-placeholder {
+      color: #4b5283;  
+      font-family: 'Bree Serif', serif;
+       font-weight:100;
+   }
+   
+   ::-moz-placeholder {
+      color: #4b5283;  
+      font-family: 'Bree Serif', serif;
+       font-weight:100;
+   }
+   
+   :-ms-input-placeholder {  
+      color: #4b5283; 
+      font-family: 'Bree Serif', serif;
+       font-weight:100;
+   }
+   .btn-v{
+      position: absolute;
+      width: 100%;
+      height: 60px;
+      bottom: 0;
+      border: 0;
+      font-family: 'Bree Serif', serif;
+      font-size: 24px;
+      text-transform: uppercase;
+      cursor: pointer;
+      left: 0;
+      border-radius: 0 0 0 5px;
+      transition:all 0.3s linear;
+   }
+   .btn-v-color{
+      background-color: rgba(145, 127, 179, 0.35);
+      color: #fff;
+   }
+   .btn-v-color:hover{
+      background-color:rgba(108, 90, 143, 0.65);
+      color: #fff;
+      
+   }
+   .btn-v-color:active{
+      background-color:rgba(255, 255, 255, 0.747);
+      color: rgba(92, 67, 141, 0.65);
+   }
+  
+   .btn-c{
+      position: absolute;
+      width: 100%;
+      height: 60px;
+      bottom: 0;
+      border: 0;
+      font-family: 'Bree Serif', serif;
+      font-size: 24px;
+      text-transform: uppercase;
+      cursor: pointer;
+      left: 0;
+      border-radius: 0 0 0 5px;
+      transition:all 0.3s linear;
+   }
+   .btn-c-color{
+      background-color: rgba(145, 127, 179, 0.35);
+      color: #fff;
+   }
+   .btn-c-color:hover{
+      background-color:rgba(108, 90, 143, 0.65);
+      color: #fff;
+   }
+   .btn-c-color:active{
+      background-color:rgba(255, 255, 255, 0.747);
+      color: rgba(92, 67, 141, 0.65);
+   }
+  
+  
