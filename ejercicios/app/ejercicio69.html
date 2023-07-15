@@ -1,0 +1,38 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 69</title>
+    <link rel="stylesheet" href="../static/css/style69.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de Alumnos</h1>
+        <form id="alumnosForm">
+          <label for="sexo">Sexo:</label>
+          <select id="sexo">
+            <option value="M">Masculino</option>
+            <option value="F">Femenino</option>
+          </select>
+    
+          <label for="edad">Edad:</label>
+          <input type="number" id="edad" min="0">
+    
+          <label for="altura">Altura:</label>
+          <input type="number" id="altura" step="0.01">
+    
+          <button type="submit">Agregar Alumno</button>
+        </form>
+    
+        <div id="resultado">
+          <h2>Resultados:</h2>
+          <p id="varones"></p>
+          <p id="mujeres"></p>
+          <p id="alturaPromedio"></p>
+          <p id="alturaMayor1_5"></p>
+        </div>
+      </div>
+    
+    <script src="../static/js/funciones69.js"></script>
+</body>
+</html>

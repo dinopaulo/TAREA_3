@@ -1,0 +1,28 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Ejercicio 28: Un negocio hace descuentos en las ventas de sus productos. Si la compra es inferior a $100 
+      el descuento es del 5%, si es mayor o igual a 100 y menor a 200 el descuento es del 10% sino 
+      será del 15%. Dado el precio de la venta mostrar el descuento realizado en pesos y el precio final 
+      con descuento
+    </title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="../static/css/style28.css" />
+  </head>
+  <body>
+    <div class="titulo">
+        <h3>Calculadora de descuento</h3>
+    </div>
+    <div class="container">
+      <div class="inputBox">
+        <input type="number" required="requerido" id="precio" />
+        <span class="text"> Precio de Venta </span>
+        <i></i>
+      </div>
+      <input type="button" class="btn" value="CALCULAR" onclick="calcularDescuento();" />
+    </div>
+    <script src="../static/js/funciones28.js"></script>
+  </body>
+</html>

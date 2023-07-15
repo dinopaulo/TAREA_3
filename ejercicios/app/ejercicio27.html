@@ -1,0 +1,38 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Ejercicio 27:Pidiendo el ingreso de la base y la altura de un cuadrilátero, indicar si es cuadrado o 
+      rectángulo. Para cualquiera de los dos casos mostrar el perímetro y la superficie de la figura 
+    </title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="../static/css/style27.css" />
+  </head>
+  <body>
+    <div class="titulo">
+    <h3>¿Cuadrado o Cuadrilátero?</h3>
+</div>
+    <div class="container">
+      <div class="inputBox" id="form">
+        <input type="number" required="requerido" id="base" />
+        <span class="text"> Base </span>
+        <i></i>
+      </div>
+      <div class="inputBox">
+        <input type="number" required="requerido" id="altura" />
+        <span class="text"> Altura </span>
+        <i></i>
+      </div>
+      <div class="contbtn">
+        <input
+          type="button"
+          class="btn"
+          value="CALCULAR"
+          onclick="calcularCuadrilatero();"
+        />
+      </div>
+    </div>
+    <script src="../static/js/funciones27.js"></script>
+  </body>
+</html>

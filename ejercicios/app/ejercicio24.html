@@ -1,0 +1,41 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Ejercicio 23: numDia es una variable numérica que puede tomar 7 valores,
+      ellos son 1, 2, 3, 4, 5, 6 o 7. Mostar el nombre el nombre del día de la
+      semana que corresponde al valor de la variable numDia.
+    </title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="../static/css/style24.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="inputBox" id="form">
+        <input type="number" required="requerido" id="lado_1" />
+        <span class="text"> 1er Lado </span>
+        <i></i>
+      </div>
+      <div class="inputBox">
+        <input type="number" required="requerido" id="lado_2" />
+        <span class="text"> 2do Lado </span>
+        <i></i>
+      </div>
+      <div class="inputBox">
+        <input type="number" required="requerido" id="lado_3" />
+        <span class="text"> 3er Lado </span>
+        <i></i>
+      </div>
+      <div class="contbtn">
+        <input
+          type="button"
+          class="btn"
+          value="CALCULAR"
+          onclick="validacion();"
+        />
+      </div>
+    </div>
+    <script src="../static/js/funciones24.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 33</title>
+    <link rel="stylesheet" href="../static/css/style33.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cálculo del tiempo transcurrido</h1>
+        <label>Hora de ingreso:</label>
+        <input type="number" id="hi" placeholder="HH" min="0" max="23">
+        <input type="number" id="mi" placeholder="MM" min="0" max="59">
+        <input type="number" id="si" placeholder="SS" min="0" max="59">
+    
+        <label>Hora de salida:</label>
+        <input type="number" id="hs" placeholder="HH" min="0" max="23">
+        <input type="number" id="ms" placeholder="MM" min="0" max="59">
+        <input type="number" id="ss" placeholder="SS" min="0" max="59">
+    
+        <button onclick="calcularTiempo()">Calcular</button>
+    
+        <div id="result"></div>
+      </div>
+    
+    <script src="../static/js/funciones33.js"></script>
+</body>
+</html>

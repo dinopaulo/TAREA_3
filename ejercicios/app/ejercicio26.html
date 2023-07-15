@@ -1,0 +1,37 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Ejercicio 26:Pidiendo el día y el mes de nacimiento mostrar el signo. 
+    </title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="../static/css/style26.css" />
+  </head>
+  <body>
+    <div class="titulo">
+    <h3>Calculadora de Signo del Zodiaco</h3>
+</div>
+    <div class="container">
+      <div class="inputBox" id="form">
+        <input type="number" required="requerido" id="day" />
+        <span class="text"> Dia de Nacimiento </span>
+        <i></i>
+      </div>
+      <div class="inputBox">
+        <input type="number" required="requerido" id="month" />
+        <span class="text"> Mes de Nacimiento </span>
+        <i></i>
+      </div>
+      <div class="contbtn">
+        <input
+          type="button"
+          class="btn"
+          value="CALCULAR"
+          onclick="obtenerSigno();"
+        />
+      </div>
+    </div>
+    <script src="../static/js/funciones26.js"></script>
+  </body>
+</html>

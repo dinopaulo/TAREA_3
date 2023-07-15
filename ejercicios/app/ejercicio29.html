@@ -1,0 +1,44 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Ejercicio 29:Pedir el ingreso de los datos de nacimientos de un hospital: día, mes, año y sexo (1- femenino 
+      2-masculino). Muestra el total de varones, el total de mujeres, el total general.
+    </title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="../static/css/style29.css" />
+  </head>
+  <body>
+    <div class="titulo">
+        <h3>Registro de Nacimientos</h3>
+    </div>
+    <div class="container">
+      <div class="inputBox">
+        <input type="number" required="requerido" id="dia" />
+        <span class="text"> Dia </span>
+        <i></i>
+      </div>
+      <div class="inputBox">
+        <input type="number" required="requerido" id="mes" />
+        <span class="text"> Mes </span>
+        <i></i>
+      </div>
+      <div class="inputBox">
+        <input type="number" required="requerido" id="anio" />
+        <span class="text"> Año </span>
+        <i></i>
+      </div>
+      <div class="cB">
+        <label for="sexo">Sexo</label>
+        <select id="sexo" required>
+    </div>
+          <option value="1">Femenino</option>
+          <option value="2">Masculino</option>
+        </select>
+      <input type="button" class="btn" value="RESULTADOS" onclick="mostrarResultados();" />
+      <input type="button" class="btn" value="REGISTRAR" onclick="registro();" />
+    </div>
+    <script src="../static/js/funciones29.js"></script>
+  </body>
+</html>

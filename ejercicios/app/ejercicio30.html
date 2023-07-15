@@ -1,0 +1,48 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Ejercicio 30:Se deberá pedir el sexo (F-M) y el estado civil (S-C-V-D) de las personas que lleguen a un 
+      espectáculo. Se deberán mostrar la cantidad y el porcentaje de hombres solteros, mujeres 
+      solteras, hombres casados, mujeres casadas, etc.
+    </title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="../static/css/style30.css" />
+  </head>
+  <body>
+    <h3>Registro de Personas</h3>
+  <div>
+    <label for="sexo">Sexo:</label>
+    <select id="sexo" required>
+      <option value="">Seleccione...</option>
+      <option value="F">Femenino</option>
+      <option value="M">Masculino</option>
+    </select>
+  </div>
+  <div>
+    <label for="estadoCivil">Estado Civil:</label>
+    <select id="estadoCivil" required>
+      <option value="">Seleccione...</option>
+      <option value="S">Soltero/a</option>
+      <option value="C">Casado/a</option>
+      <option value="V">Viudo/a</option>
+      <option value="D">Divorciado/a</option>
+    </select>
+  </div>
+  <button onclick="registrar()">Registrar</button>
+  <br><br>
+  <h4>Resultados:</h4>
+  <div id="resultados">
+    <p>Hombres solteros: <span id="hombresSolteros">0</span></p>
+    <p>Mujeres solteras: <span id="mujeresSolteras">0</span></p>
+    <p>Hombres casados: <span id="hombresCasados">0</span></p>
+    <p>Mujeres casadas: <span id="mujeresCasadas">0</span></p>
+    <p>Hombres viudos: <span id="hombresViudos">0</span></p>
+    <p>Mujeres viudas: <span id="mujeresViudas">0</span></p>
+    <p>Hombres divorciados: <span id="hombresDivorciados">0</span></p>
+    <p>Mujeres divorciadas: <span id="mujeresDivorciadas">0</span></p>
+  </div>
+    <script src="../static/js/funciones30.js"></script>
+  </body>
+</html>
