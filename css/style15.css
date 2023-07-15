@@ -1,0 +1,57 @@
+body{
+    font-family: 'Purple Smile', sans-serif;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    box-sizing: border-box;
+}
+form{
+    background-color: white;
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    padding: 20px 20px 20px 20px;
+    margin: 100px auto ;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+}
+.subt{
+    text-align: center;
+    font-weight: lighter;
+}
+p{
+    padding: 0px 40px;
+}
+input{
+    border: 0;
+    outline: none;
+
+
+    
+}
+.campo{
+    width: 355px;
+    padding: 0px 60px;
+    height: 30px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin: 4 auto;
+}
+.campo:focus{
+    border: 2px solid #4c00ff;
+}
+.btn{
+    padding: auto;
+    margin: 5 30px;
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+    background-image: linear-gradient(to right, #fa6eff 0%, #b85ded  51%, #191df0  100%);
+}
+.btn:hover{
+    background-image: linear-gradient(to right, #fbb3fd 0%, #d3a4ee  51%, #8081e4  100%);
+}
+.btn:active{
+    background-image: linear-gradient(to right, #f8ecf8 0%, #e9d9f3  51%, #dfdff5  100%);
+}

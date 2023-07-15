@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F1F1F1;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #FF6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  #rectangles {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .rectangle {
+    background-color: #FFA07A;
+    color: white;
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  .rectangle input {
+    width: 100px;
+    margin-bottom: 5px;
+  }
+  
